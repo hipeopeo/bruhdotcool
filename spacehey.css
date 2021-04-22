@@ -1,0 +1,112 @@
+<style>
+/* Note:  Alexis, I based this on your CSS */
+body{
+	background-image: url(https://bruh.cool/matrix.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+nav .top{
+	background-color: #414241;
+	text-align: center;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+}
+/* Recolors the navigation bar */
+nav .links{
+	background: #1e1e1e;
+	color: white !important;
+}
+/* Recolors the links in the navigation bar */
+nav .links a{
+	color: white !important;
+}
+/* Changes the background color of the main window */
+main {
+	border-radius: 0px 0px 15px 15px;
+	background: #38383c;
+}
+/* Gives the top of the window a bit of breathing space */
+.container {
+	margin: 10px auto 10px;
+}
+/* Changes the color of the footer */
+/* No idea why, but it HAS to be in rgba format */
+/* Again, I'm not a CSS pro, don't ask */
+footer {
+	background: rgba(30, 30, 30, 100) !important;
+	border-radius: 15px 15px 15px 15px;
+}
+/* Applies rounded corners to all images */
+/* ALL images. */
+/* All. Of. Them. */
+img {
+	border-radius: 6px;
+}
+/* Makes sure all of our text is the correct color. */
+/* Best to just edit all of them. Trust me. */
+p {
+	color: white;
+}
+h1 {
+	color: white;
+}
+h4 {
+	color: white;
+}
+
+/* Everything below this point is genuinely terrible */
+/* Do not ask me to debug it for you, I don't know how I made it work to begin with */
+
+/* Makes the headings gray */
+.profile .blurbs .heading, .profile .friends .heading, .profile .contact .heading, .profile .table-section .heading, .home-actions .heading {
+	background-color: #1e1e1e;
+}
+/* Gives the left side of the details table a color */
+.details-table td:first-child {
+	background: #2e2e2e;
+}
+/* Gives the right side of the details table a color */ 
+.details-table td {
+	background: #292929;
+}
+/* Removes the borders from the Comments box */
+/* Note: There may be a better-looking approach, but I'm tired af */
+.friends th, tr, .friends td, th, .icon, #comments, main, .comments-table, .friends, .profile-info, .table, .table-section, .contact, .url-info, .mood, .blurbs, .blog-preview, .details, .profile-pic img {
+	border: 0px dotted gray !important;
+	outline: none !important;
+}
+/* Makes the left column in the comments box gray */
+.comments-table td:first-child, .music-table td:first-child {
+	background: #2e2e2e;
+}
+/* Makes the right column of the comments box gray */
+.comments-table td, .music-table td {
+	background: #292929;
+}
+/* Makes comment replies gray */
+.comment-replies {
+	border: 5px solid #1e1e1e; 
+	background: #1e1e1e;
+}
+/* Recolors URLs */
+a {
+	color: white;
+}
+/* Recolors Friend URLs */
+.profile .friends .person p {
+    color: white;
+/* Makes links look better when moused over */
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+/* Probably the same when clicking, I think */
+a:active {
+	color: white;
+}
+</style>
